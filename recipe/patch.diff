@@ -1,0 +1,12 @@
+--- pyproject.toml
++++ pyproject.toml
+@@ -6,9 +6,8 @@
+ name = "pdfminer.six"
+ dynamic = ["version"]
+ description = "PDF parser and analyzer"
+ readme = "README.md"
+-license = "MIT"
+ requires-python = ">=3.9"
+ authors = [
+     { name = "Yusuke Shinyama" },
+     { name = "Philippe Guglielmetti", email = "pdfminer@goulu.net" },
