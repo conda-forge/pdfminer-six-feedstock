@@ -1,6 +1,6 @@
 {% set name = "pdfminer-six" %}
 {% set version = "20250327" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
