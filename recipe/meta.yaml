@@ -1,5 +1,5 @@
 {% set name = "pdfminer-six" %}
-{% set version = "20250327" %}
+{% set version = "20250416" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 57f6c34c2702df04cfa3191622a3db0a922ced686d35283232b00094f8914aa1
+  sha256: 30956a85f9d0add806a4e460ed0d67c2b6a48b53323c7ac87de23174596d3acd
   patches:
     - patch.diff
 
